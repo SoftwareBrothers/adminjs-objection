@@ -1,5 +1,6 @@
 import { JSONSchema, Relation } from 'objection';
-import { Property } from './Property';
+
+import { Property } from './Property.js';
 
 export interface SortOptions {
   sortBy?: string;

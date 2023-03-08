@@ -9,9 +9,10 @@ import {
   ValidationError,
 } from 'adminjs';
 import { Model, QueryBuilder } from 'objection';
-import { FindOptions, SortOptions, ForeignKeyToRelationMapping } from './types';
-import { prepareParams, prepareProperties, convertFilter } from './utils';
-import { Property } from './Property';
+
+import { FindOptions, SortOptions, ForeignKeyToRelationMapping } from './types.js';
+import { prepareParams, prepareProperties, convertFilter } from './utils/index.js';
+import { Property } from './Property.js';
 
 export class Resource extends BaseResource {
   private model: typeof Model;

@@ -2,8 +2,8 @@ import express from 'express';
 import AdminJS from 'adminjs';
 import AdminJSExpress from '@adminjs/express';
 
-import * as AdminJSObjection from '../../src';
-import { ManagerResource, OfficeResource } from './resources';
+import * as AdminJSObjection from '../../src/index.js';
+import { ManagerResource, OfficeResource } from './resources/index.js';
 
 AdminJS.registerAdapter(AdminJSObjection);
 

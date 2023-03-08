@@ -1,7 +1,7 @@
 import { JSONSchema, Relation } from 'objection';
 
-import { PropertyOptions } from '../types';
-import { Property } from '../Property';
+import { PropertyOptions } from '../types.js';
+import { Property } from '../Property.js';
 
 export interface PreparePropertiesOptions {
   idColumn?: string;
