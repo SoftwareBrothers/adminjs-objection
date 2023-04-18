@@ -1,3 +1,3 @@
-export { default as prepareProperties } from './prepare-properties';
-export { default as prepareParams } from './prepare-params';
-export * from './convert-filter';
+export { default as prepareProperties } from './prepare-properties.js';
+export { default as prepareParams } from './prepare-params.js';
+export * from './convert-filter.js';

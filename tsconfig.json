@@ -1,9 +1,10 @@
 {
   "compilerOptions": {
-    "module": "commonjs",
-    "target": "es6",
+    "module": "nodenext",
+    "moduleResolution": "nodenext",
+    "target": "esnext",
     "lib": [
-      "es2018",
+      "esnext",
       "DOM"
     ],
     "skipLibCheck": true,

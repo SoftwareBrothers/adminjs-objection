@@ -1,6 +1,6 @@
 import { flat, ParamsType, paramConverter } from 'adminjs';
 
-import { Property } from '../Property';
+import { Property } from '../Property.js';
 
 const prepareParams = (params: ParamsType, properties: Property[]): Record<string, unknown> => {
   const newParams = { ...params };

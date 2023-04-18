@@ -1,6 +1,6 @@
 import { BaseProperty, PropertyType } from 'adminjs';
 
-import { PropertyOptions } from './types';
+import { PropertyOptions } from './types.js';
 
 export class Property extends BaseProperty {
   private column: PropertyOptions;
