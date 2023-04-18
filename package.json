@@ -35,7 +35,7 @@
     }
   },
   "peerDependencies": {
-    "adminjs": "^6.8.7",
+    "adminjs": "^7.0.0",
     "knex": "^2.4.2",
     "objection": "^3.0.1"
   },
@@ -46,7 +46,7 @@
     "@types/node": "^18",
     "@typescript-eslint/eslint-plugin": "^5.54.1",
     "@typescript-eslint/parser": "^5.54.1",
-    "adminjs": "^7.0.0-beta-v7.3",
+    "adminjs": "^7.0.0",
     "dotenv-cli": "^7.0.0",
     "eslint": "^8.35.0",
     "eslint-config-airbnb": "^19.0.4",
