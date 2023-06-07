@@ -66,7 +66,7 @@ export class Resource extends BaseResource {
     const qb = this.getQueryBuilder();
     convertFilter(qb, filter);
 
-    const result = await qb.count() as any;
+    const result = await qb.count({ count: '*' }).first() as any;
 
     return result?.count ? Number(result.count) : 0;
   }
